@@ -1,0 +1,54 @@
+.callout {
+    padding: 8rem 0;
+    background: #358ed7 no-repeat center center;
+    background-size: cover;
+}
+.callout h2, .callout .h2 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-weight: normal;
+    display: block;
+    max-width: 30rem;
+}
+.subHeading{
+    font-size: clamp(0.9rem,1.1rem, 1.2rem);
+    line-height: 1.3;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 65px;
+}
+@media (max-width: 768px) {
+    .subHeading{
+        margin-bottom: 45px;
+    }
+}
+@media (max-width: 576px) {
+    .subHeading{
+        margin-bottom: 30px;
+    }
+}
+.scale-up-hor-center:hover {
+    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+@keyframes scale-up-hor-center {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}

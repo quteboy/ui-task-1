@@ -1,0 +1,51 @@
+.metaHead{
+    background-color: #358ed7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    /*height: 100vh;*/
+}
+.innerContainer{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+@media (max-width: 992px) {
+    .innerContainer{
+        padding-left: 3.5rem;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .innerContainer{
+        padding-left: 2.0rem;
+        padding-top: 2.0rem;
+        padding-bottom: 2.0rem;
+    }
+}
+@media (max-width: 576px) {
+    .innerContainer{
+        padding: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .innerContainer{
+        padding-left: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+.mainHeading{
+    font-size: clamp(1.8rem, 2.5rem, 3.2rem);
+    line-height: 1.4;
+    font-weight: 400;
+    color: white;
+}
+.subHeading{
+    font-size: clamp(1rem,1.5rem, 1.7rem);
+    line-height: 1.4;
+    font-weight: 500;
+    color: white;
+}

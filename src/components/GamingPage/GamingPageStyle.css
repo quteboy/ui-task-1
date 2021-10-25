@@ -1,0 +1,13 @@
+.mainHeader{
+    background-color: white;
+    height: 95vh;
+    position: relative;
+}
+.imgContainer{
+    position: absolute;
+    z-index: 3;
+    top: -10%;
+    bottom: 0%;
+    right: 0%;
+    left: 5%;
+}
